@@ -3,7 +3,8 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "11"
+      VERSION: "https://archive.org/download/teams10to7mod-iso/Reloaded7Release11.iso"
+      MANUAL: "Y"
     devices:
       - /dev/kvm
       - /dev/net/tun
